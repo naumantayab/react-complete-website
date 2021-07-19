@@ -1,5 +1,5 @@
 import React from "react";
-import MainApp from './components/react-menu/MainApp';
+import MainApp from "./MainApp";
 import { BrowserRouter } from "react-router-dom";
 const App = () => {
   return (
