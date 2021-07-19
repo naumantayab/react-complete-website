@@ -9,20 +9,20 @@ const Contact = () => {
   });
 
   const InputEvent = (event) => {
-    const{name, value} = event.target;
+    const { name, value } = event.target;
 
-    setData((preVal) =>{
-      return{
+    setData((preVal) => {
+      return {
         ...preVal,
         [name]: value,
-      }
-    })
-  }
+      };
+    });
+  };
 
-  const formSubmit = (e) =>{
-      e.preventDefault();
-      alert(`My name is ${data.fullname}`);
-  }
+  const formSubmit = (e) => {
+    e.preventDefault();
+    alert(`My name is ${data.fullname}`);
+  };
   return (
     <>
       <div className="my-5">

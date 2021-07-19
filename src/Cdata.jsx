@@ -1,4 +1,4 @@
-import web from '../src/images/services/web.jpg';
+import web from "../src/images/services/web.jpg";
 import app from "../src/images/services/app.jpg";
 import andriod from "../src/images/services/andriod.jpg";
 import digital from "../src/images/services/digital.jpg";
