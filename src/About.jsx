@@ -1,5 +1,5 @@
 import React from "react";
-import web from "../src/images/about1.png";
+import web from "../src/images/digital.png";
 import Common from "./Common";
 
 const About = () => {
